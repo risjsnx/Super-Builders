@@ -187,6 +187,8 @@ jobs:
             os_patch_level: "2025-09"
           - sub_level: "246"
             os_patch_level: "2025-12"
+          - sub_level: "258"
+            os_patch_level: "2026-06"
     uses: ./.github/workflows/build-ksu-next.yml
     with:
       android_version: android12
