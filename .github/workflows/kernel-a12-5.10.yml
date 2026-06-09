@@ -52,6 +52,7 @@ on:
         options:
           - generic
           - lake
+          - garnet
         default: "lake"
   workflow_call:
     inputs:
