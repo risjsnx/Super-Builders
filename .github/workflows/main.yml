@@ -66,6 +66,7 @@ on:
         options:
           - generic
           - lake
+          - garnet
         default: "lake"
 
 jobs:
